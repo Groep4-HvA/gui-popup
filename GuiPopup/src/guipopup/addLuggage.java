@@ -55,6 +55,11 @@ public class addLuggage extends javax.swing.JFrame {
         adDetails.setText("Additional details: ");
 
         Save.setText("Save");
+        Save.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SaveActionPerformed(evt);
+            }
+        });
 
         cancel.setText("Cancel");
         cancel.addActionListener(new java.awt.event.ActionListener() {
@@ -142,6 +147,10 @@ public class addLuggage extends javax.swing.JFrame {
     private void cancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelActionPerformed
         System.exit(0);        // TODO add your handling code here:
     }//GEN-LAST:event_cancelActionPerformed
+
+    private void SaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveActionPerformed
+       System.exit(0);        // TODO add your handling code here:
+    }//GEN-LAST:event_SaveActionPerformed
 
     /**
      * @param args the command line arguments
