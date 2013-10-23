@@ -5,3 +5,4 @@
 *.war
 *.ear
 /GuiPopup/nbproject/private/
+/GuiPopup/build/
